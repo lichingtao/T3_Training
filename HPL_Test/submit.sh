@@ -3,8 +3,7 @@
 #SBATCH -p ct56 
 #SBATCH -c 1         # Number of cores per MPI task
 #SBATCH -N 1        # Maximum number of nodes to be allocated
-##SBATCH --ntasks-per-node=56    # Maximum number of tasks on each node
-#SBATCH -n 56
+#SBATCH --ntasks-per-node=56    # Maximum number of tasks on each node
 #SBATCH -e job-%j.err
 #SBATCH -o job-%j.out
 
